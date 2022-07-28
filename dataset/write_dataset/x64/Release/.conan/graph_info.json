@@ -1,0 +1,90 @@
+{
+ "options": [
+  [
+   "eigen:MPL2_only",
+   "False"
+  ],
+  [
+   "fmt:header_only",
+   "False"
+  ],
+  [
+   "fmt:shared",
+   "False"
+  ],
+  [
+   "fmt:with_fmt_alias",
+   "False"
+  ],
+  [
+   "fmt:with_os_api",
+   "True"
+  ],
+  [
+   "hdf5:enable_cxx",
+   "True"
+  ],
+  [
+   "hdf5:hl",
+   "True"
+  ],
+  [
+   "hdf5:parallel",
+   "False"
+  ],
+  [
+   "hdf5:shared",
+   "False"
+  ],
+  [
+   "hdf5:szip_support",
+   "None"
+  ],
+  [
+   "hdf5:with_zlib",
+   "True"
+  ],
+  [
+   "spdlog:header_only",
+   "False"
+  ],
+  [
+   "spdlog:no_exceptions",
+   "False"
+  ],
+  [
+   "spdlog:shared",
+   "False"
+  ],
+  [
+   "spdlog:wchar_filenames",
+   "False"
+  ],
+  [
+   "spdlog:wchar_support",
+   "False"
+  ],
+  [
+   "xtensor:openmp",
+   "False"
+  ],
+  [
+   "xtensor:tbb",
+   "False"
+  ],
+  [
+   "xtensor:xsimd",
+   "True"
+  ],
+  [
+   "zlib:shared",
+   "False"
+  ]
+ ],
+ "root": {
+  "name": null,
+  "version": null,
+  "user": null,
+  "channel": null
+ }
+}

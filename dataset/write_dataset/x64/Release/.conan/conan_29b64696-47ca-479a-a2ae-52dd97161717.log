@@ -1,0 +1,124 @@
+[Conan.VisualStudio] Calling process 'C:\Program Files\Conan\conan\conan.exe' with arguments '--version'
+Conan version 1.46.2
+[Conan.VisualStudio] Calling process 'C:\Program Files\Conan\conan\conan.exe' with arguments 'install C:\Users\sypei\source\repos\evaluation_GPU_dense\evaluation_GPU_dense\conanfile.txt -g visual_studio --install-folder C:\Users\sypei\source\repos\evaluation_GPU_dense\x64\Release\.conan -s arch=x86_64 -s build_type=Release -s compiler.toolset=v142 -s compiler.version=16 -s compiler.runtime=MD  --build=missing --update'
+Configuration:
+[settings]
+arch=x86_64
+arch_build=x86_64
+build_type=Release
+compiler=Visual Studio
+compiler.runtime=MD
+compiler.toolset=v142
+compiler.version=16
+os=Windows
+os_build=Windows
+[options]
+[build_requires]
+[env]
+
+fmt/8.1.1: Not found in local cache, looking in remotes...
+fmt/8.1.1: Trying with 'conancenter'...
+Downloading conanmanifest.txt
+Downloading conanfile.py
+Downloading conan_export.tgz
+fmt/8.1.1: Downloaded recipe revision 0
+conanfile.txt: Installing package
+Requirements
+    eigen/3.3.9 from 'conancenter' - Cache
+    fmt/8.1.1 from 'conancenter' - Downloaded
+    h5pp/1.9.0 from 'conancenter' - Cache
+    hdf5/1.12.0 from 'conancenter' - Cache
+    spdlog/1.8.5 from 'conancenter' - Cache
+    zlib/1.2.11 from 'conancenter' - Cache
+Packages
+    eigen/3.3.9:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9 - Cache
+    fmt/8.1.1:2be90237c5e294c2f30bf6b043d047624b893db3 - Download
+    h5pp/1.9.0:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9 - Cache
+    hdf5/1.12.0:28891ed0065342f11bc16b246461e0f70d52d55a - Cache
+    spdlog/1.8.5:26b885d7ef0883598f1d5dc9d2e504e10115011f - Build
+    zlib/1.2.11:3fb49604f9c2f729b85ba3115852006824e72cab - Cache
+
+Installing (downloading, building) binaries...
+fmt/8.1.1: Retrieving package 2be90237c5e294c2f30bf6b043d047624b893db3 from remote 'conancenter' 
+Downloading conanmanifest.txt
+Downloading conaninfo.txt
+Downloading conan_package.tgz
+fmt/8.1.1: Package installed 2be90237c5e294c2f30bf6b043d047624b893db3
+fmt/8.1.1: Downloaded package revision 0
+eigen/3.3.9: Already installed!
+zlib/1.2.11: Already installed!
+hdf5/1.12.0: Already installed!
+Downloading conan_sources.tgz
+spdlog/1.8.5: Configuring sources in C:\Users\sypei\.conan\data\spdlog\1.8.5\_\_\source
+
+spdlog/1.8.5: Copying sources to build folder
+spdlog/1.8.5: Building your package in C:\Users\sypei\.conan\data\spdlog\1.8.5\_\_\build\26b885d7ef0883598f1d5dc9d2e504e10115011f
+spdlog/1.8.5: Generator cmake created conanbuildinfo.cmake
+spdlog/1.8.5: Generator cmake_find_package created Findfmt.cmake
+spdlog/1.8.5: Generator cmake_find_package_multi created fmt-config-version.cmake
+spdlog/1.8.5: Generator cmake_find_package_multi created fmt-config.cmake
+spdlog/1.8.5: Generator cmake_find_package_multi created fmtTargets.cmake
+spdlog/1.8.5: Generator cmake_find_package_multi created fmtTarget-release.cmake
+spdlog/1.8.5: Aggregating env generators
+spdlog/1.8.5: Calling build()
+-- Selecting Windows SDK version 10.0.19041.0 to target Windows 10.0.19043.
+-- The C compiler identification is MSVC 19.29.30141.0
+-- The CXX compiler identification is MSVC 19.29.30141.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/cl.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/cl.exe - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Conan: called by CMake conan helper
+-- Conan: called inside local cache
+-- Conan: Adjusting output directories
+-- Conan: Using cmake global configuration
+-- Conan: Adjusting default RPATHs Conan policies
+-- Conan: Adjusting language standard
+-- Conan: Skipping compiler check: Declared 'compiler.toolset'
+-- Build spdlog: 1.8.5
+-- Looking for pthread.h
+-- Looking for pthread.h - not found
+-- Found Threads: TRUE  
+-- Build type: Release
+-- Library fmt found C:/Users/sypei/.conan/data/fmt/8.1.1/_/_/package/2be90237c5e294c2f30bf6b043d047624b893db3/lib/fmt.lib
+-- Found: C:/Users/sypei/.conan/data/fmt/8.1.1/_/_/package/2be90237c5e294c2f30bf6b043d047624b893db3/lib/fmt.lib
+-- Generating install
+-- Configuring done
+-- Generating done
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_EXPORT_NO_PACKAGE_REGISTRY
+    CONAN_COMPILER_VERSION
+
+
+-- Build files have been written to: C:/Users/sypei/.conan/data/spdlog/1.8.5/_/_/build/26b885d7ef0883598f1d5dc9d2e504e10115011f
+Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Checking Build System
+  Building Custom Rule C:/Users/sypei/.conan/data/spdlog/1.8.5/_/_/build/26b885d7ef0883598f1d5dc9d2e504e10115011f/source_subfolder/CMakeLists.txt
+  spdlog.cpp
+  stdout_sinks.cpp
+  color_sinks.cpp
+  file_sinks.cpp
+  async.cpp
+  cfg.cpp
+C:\Users\sypei\.conan\data\spdlog\1.8.5\_\_\build\26b885d7ef0883598f1d5dc9d2e504e10115011f\source_subfolder\include\spdlog/common-inl.h(63,53): error C2664: 'void fmt::v8::format_system_error(fmt::v8::detail::buffer<char> &,int,const char *) noexcept': cannot convert argument 3 from 'const std::string' to 'const char *' (compiling source file C:\Users\sypei\.conan\data\spdlog\1.8.5\_\_\build\26b885d7ef0883598f1d5dc9d2e504e10115011f\source_subfolder\src\spdlog.cpp) [C:\Users\sypei\.conan\data\spdlog\1.8.5\_\_\build\26b885d7ef0883598f1d5dc9d2e504e10115011f\source_subfolder\spdlog.vcxproj]
+C:\Users\sypei\.conan\data\spdlog\1.8.5\_\_\build\26b885d7ef0883598f1d5dc9d2e504e10115011f\source_subfolder\include\spdlog/common-inl.h(63,50): message : No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called (compiling source file C:\Users\sypei\.conan\data\spdlog\1.8.5\_\_\build\26b885d7ef0883598f1d5dc9d2e504e10115011f\source_subfolder\src\spdlog.cpp) [C:\Users\sypei\.conan\data\spdlog\1.8.5\_\_\build\26b885d7ef0883598f1d5dc9d2e504e10115011f\source_subfolder\spdlog.vcxproj]
+C:\Users\sypei\.conan\data\fmt\8.1.1\_\_\package\2be90237c5e294c2f30bf6b043d047624b893db3\include\fmt/format.h(2492,14): message : see declaration of 'fmt::v8::format_system_error' (compiling source file C:\Users\sypei\.conan\data\spdlog\1.8.5\_\_\build\26b885d7ef0883598f1d5dc9d2e504e10115011f\source_subfolder\src\spdlog.cpp) [C:\Users\sypei\.conan\data\spdlog\1.8.5\_\_\build\26b885d7ef0883598f1d5dc9d2e504e10115011f\source_subfolder\spdlog.vcxproj]
+C:\Users\sypei\.conan\data\spdlog\1.8.5\_\_\build\26b885d7ef0883598f1d5dc9d2e504e10115011f\source_subfolder\include\spdlog/details/fmt_helper.h(57,14): warning C4996: 'fmt::v8::format_to': was declared deprecated (compiling source file C:\Users\sypei\.conan\data\spdlog\1.8.5\_\_\build\26b885d7ef0883598f1d5dc9d2e504e10115011f\source_subfolder\src\spdlog.cpp) [C:\Users\sypei\.conan\data\spdlog\1.8.5\_\_\build\26b885d7ef0883598f1d5dc9d2e504e10115011f\source_subfolder\spdlog.vcxproj]
+spdlog/1.8.5: 
+WARN: spdlog/1.8.5: requirement fmt/7.1.3 overridden by h5pp/1.9.0 to fmt/8.1.1 
+spdlog/1.8.5: ERROR: Package '26b885d7ef0883598f1d5dc9d2e504e10115011f' build failed
+spdlog/1.8.5: WARN: Build folder C:\Users\sypei\.conan\data\spdlog\1.8.5\_\_\build\26b885d7ef0883598f1d5dc9d2e504e10115011f
+ERROR: spdlog/1.8.5: Error in build() method, line 116
+	cmake.build()
+	ConanException: Error 1 while executing cmake --build C:\Users\sypei\.conan\data\spdlog\1.8.5\_\_\build\26b885d7ef0883598f1d5dc9d2e504e10115011f --config Release -- /m:16 /verbosity:minimal
+Conan has returned exit code '1' while processing configuration 'Architecture: x86_64, build type: Release, compiler toolset: v142, compiler version: 16;, runtime library: MD'. Please check file 'C:\Users\sypei\source\repos\evaluation_GPU_dense\x64\Release\.conan\conan_29b64696-47ca-479a-a2ae-52dd97161717.log' for details.

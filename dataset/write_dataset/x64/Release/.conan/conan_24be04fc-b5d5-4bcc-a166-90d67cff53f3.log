@@ -1,0 +1,103 @@
+[Conan.VisualStudio] Calling process 'C:\Program Files\Conan\conan\conan.exe' with arguments '--version'
+Conan version 1.46.2
+[Conan.VisualStudio] Calling process 'C:\Program Files\Conan\conan\conan.exe' with arguments 'install C:\Users\sypei\source\repos\evaluation_GPU_dense\evaluation_GPU_dense\conanfile.txt -g visual_studio --install-folder C:\Users\sypei\source\repos\evaluation_GPU_dense\x64\Release\.conan -s arch=x86_64 -s build_type=Release -s compiler.toolset=v142 -s compiler.version=16 -s compiler.runtime=MD  --build=missing --update'
+Configuration:
+[settings]
+arch=x86_64
+arch_build=x86_64
+build_type=Release
+compiler=Visual Studio
+compiler.runtime=MD
+compiler.toolset=v142
+compiler.version=16
+os=Windows
+os_build=Windows
+[options]
+[build_requires]
+[env]
+
+xtensor/0.24.0: Not found in local cache, looking in remotes...
+xtensor/0.24.0: Trying with 'conancenter'...
+Downloading conanmanifest.txt
+Downloading conanfile.py
+Downloading conan_export.tgz
+xtensor/0.24.0: Downloaded recipe revision 0
+xtl/0.7.4: Not found in local cache, looking in remotes...
+xtl/0.7.4: Trying with 'conancenter'...
+Downloading conanmanifest.txt
+Downloading conanfile.py
+Downloading conan_export.tgz
+xtl/0.7.4: Downloaded recipe revision 0
+nlohmann_json/3.10.5: Not found in local cache, looking in remotes...
+nlohmann_json/3.10.5: Trying with 'conancenter'...
+Downloading conanmanifest.txt
+Downloading conanfile.py
+Downloading conan_export.tgz
+nlohmann_json/3.10.5: Downloaded recipe revision 0
+xsimd/8.0.3: Not found in local cache, looking in remotes...
+xsimd/8.0.3: Trying with 'conancenter'...
+Downloading conanmanifest.txt
+Downloading conanfile.py
+Downloading conan_export.tgz
+xsimd/8.0.3: Downloaded recipe revision 0
+conanfile.txt: Installing package
+Requirements
+    eigen/3.3.9 from 'conancenter' - Cache
+    fmt/7.1.3 from 'conancenter' - Cache
+    h5pp/1.9.0 from 'conancenter' - Cache
+    hdf5/1.12.0 from 'conancenter' - Cache
+    nlohmann_json/3.10.5 from 'conancenter' - Downloaded
+    spdlog/1.8.5 from 'conancenter' - Cache
+    xsimd/8.0.3 from 'conancenter' - Downloaded
+    xtensor/0.24.0 from 'conancenter' - Downloaded
+    xtl/0.7.4 from 'conancenter' - Downloaded
+    zlib/1.2.11 from 'conancenter' - Cache
+Packages
+    eigen/3.3.9:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9 - Cache
+    fmt/7.1.3:2be90237c5e294c2f30bf6b043d047624b893db3 - Cache
+    h5pp/1.9.0:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9 - Cache
+    hdf5/1.12.0:28891ed0065342f11bc16b246461e0f70d52d55a - Cache
+    nlohmann_json/3.10.5:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9 - Download
+    spdlog/1.8.5:5f068d3b65ebc5bb906d7ad2d998a4a2f8ad5db4 - Cache
+    xsimd/8.0.3:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9 - Download
+    xtensor/0.24.0:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9 - Download
+    xtl/0.7.4:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9 - Download
+    zlib/1.2.11:3fb49604f9c2f729b85ba3115852006824e72cab - Cache
+
+Installing (downloading, building) binaries...
+nlohmann_json/3.10.5: Retrieving package 5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9 from remote 'conancenter' 
+Downloading conanmanifest.txt
+Downloading conaninfo.txt
+Downloading conan_package.tgz
+nlohmann_json/3.10.5: Package installed 5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
+nlohmann_json/3.10.5: Downloaded package revision 0
+xsimd/8.0.3: Retrieving package 5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9 from remote 'conancenter' 
+Downloading conanmanifest.txt
+Downloading conaninfo.txt
+Downloading conan_package.tgz
+xsimd/8.0.3: Package installed 5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
+xsimd/8.0.3: Downloaded package revision 0
+xtl/0.7.4: Retrieving package 5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9 from remote 'conancenter' 
+Downloading conanmanifest.txt
+Downloading conaninfo.txt
+Downloading conan_package.tgz
+xtl/0.7.4: Package installed 5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
+xtl/0.7.4: Downloaded package revision 0
+xtensor/0.24.0: Retrieving package 5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9 from remote 'conancenter' 
+Downloading conanmanifest.txt
+Downloading conaninfo.txt
+Downloading conan_package.tgz
+xtensor/0.24.0: Package installed 5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
+xtensor/0.24.0: Downloaded package revision 0
+eigen/3.3.9: Already installed!
+fmt/7.1.3: Already installed!
+zlib/1.2.11: Already installed!
+hdf5/1.12.0: Already installed!
+spdlog/1.8.5: Already installed!
+h5pp/1.9.0: Already installed!
+conanfile.txt: Generator txt created conanbuildinfo.txt
+conanfile.txt: Generator visual_studio created conanbuildinfo.props
+conanfile.txt: Aggregating env generators
+conanfile.txt: Generated conaninfo.txt
+conanfile.txt: Generated graphinfo
+[Conan.VisualStudio] Conan has succsessfully installed configuration 'Architecture: x86_64, build type: Release, compiler toolset: v142, compiler version: 16;, runtime library: MD'

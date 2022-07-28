@@ -1,0 +1,21 @@
+[Conan.VisualStudio] Calling process 'C:\Program Files\Conan\conan\conan.exe' with arguments '--version'
+Conan version 1.46.2
+[Conan.VisualStudio] Calling process 'C:\Program Files\Conan\conan\conan.exe' with arguments 'install C:\Users\sypei\source\repos\evaluation_GPU_dense\evaluation_GPU_dense\conanfile.txt -g visual_studio --install-folder C:\Users\sypei\source\repos\evaluation_GPU_dense\x64\Release\.conan -s arch=x86_64 -s build_type=Release -s compiler.toolset=v142 -s compiler.version=16 -s compiler.runtime=MD  --build=missing --update'
+Configuration:
+[settings]
+arch=x86_64
+arch_build=x86_64
+build_type=Release
+compiler=Visual Studio
+compiler.runtime=MD
+compiler.toolset=v142
+compiler.version=16
+os=Windows
+os_build=Windows
+[options]
+[build_requires]
+[env]
+
+ERROR: C:\Users\sypei\source\repos\evaluation_GPU_dense\evaluation_GPU_dense:
+ConfigParser: Unexpected line 'h5pp/1.9.0'
+Conan has returned exit code '1' while processing configuration 'Architecture: x86_64, build type: Release, compiler toolset: v142, compiler version: 16;, runtime library: MD'. Please check file 'C:\Users\sypei\source\repos\evaluation_GPU_dense\x64\Release\.conan\conan_cd18d279-352c-4673-bb99-a3fad259fa1c.log' for details.

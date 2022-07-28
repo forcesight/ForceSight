@@ -1,0 +1,107 @@
+{
+ "graph_lock": {
+  "nodes": {
+   "0": {
+    "options": "eigen:MPL2_only=False\nfmt:header_only=False\nfmt:shared=False\nfmt:with_fmt_alias=False\nfmt:with_os_api=True\nhdf5:enable_cxx=True\nhdf5:hl=True\nhdf5:parallel=False\nhdf5:shared=False\nhdf5:szip_support=None\nhdf5:with_zlib=True\nspdlog:header_only=False\nspdlog:no_exceptions=False\nspdlog:shared=False\nspdlog:wchar_filenames=False\nspdlog:wchar_support=False\nxtensor:openmp=False\nxtensor:tbb=False\nxtensor:xsimd=True\nzlib:shared=False",
+    "requires": [
+     "1",
+     "2",
+     "5",
+     "3",
+     "7"
+    ],
+    "path": "..\\..\\..\\evaluation_GPU_dense\\conanfile.txt",
+    "context": "host"
+   },
+   "1": {
+    "ref": "h5pp/1.9.0",
+    "options": "eigen:MPL2_only=False\nfmt:header_only=False\nfmt:shared=False\nfmt:with_fmt_alias=False\nfmt:with_os_api=True\nhdf5:enable_cxx=True\nhdf5:hl=True\nhdf5:parallel=False\nhdf5:shared=False\nhdf5:szip_support=None\nhdf5:with_zlib=True\nspdlog:header_only=False\nspdlog:no_exceptions=False\nspdlog:shared=False\nspdlog:wchar_filenames=False\nspdlog:wchar_support=False\nzlib:shared=False",
+    "package_id": "5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9",
+    "prev": "0",
+    "requires": [
+     "2",
+     "3",
+     "5"
+    ],
+    "context": "host"
+   },
+   "2": {
+    "ref": "eigen/3.3.9",
+    "options": "MPL2_only=False",
+    "package_id": "5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9",
+    "prev": "0",
+    "context": "host"
+   },
+   "3": {
+    "ref": "spdlog/1.8.5",
+    "options": "header_only=False\nno_exceptions=False\nshared=False\nwchar_filenames=False\nwchar_support=False\nfmt:header_only=False\nfmt:shared=False\nfmt:with_fmt_alias=False\nfmt:with_os_api=True",
+    "package_id": "5f068d3b65ebc5bb906d7ad2d998a4a2f8ad5db4",
+    "prev": "0",
+    "requires": [
+     "4"
+    ],
+    "context": "host"
+   },
+   "4": {
+    "ref": "fmt/7.1.3",
+    "options": "header_only=False\nshared=False\nwith_fmt_alias=False\nwith_os_api=True",
+    "package_id": "2be90237c5e294c2f30bf6b043d047624b893db3",
+    "prev": "0",
+    "context": "host"
+   },
+   "5": {
+    "ref": "hdf5/1.12.0",
+    "options": "enable_cxx=True\nhl=True\nparallel=False\nshared=False\nszip_support=None\nwith_zlib=True\nzlib:shared=False",
+    "package_id": "28891ed0065342f11bc16b246461e0f70d52d55a",
+    "prev": "0",
+    "requires": [
+     "6"
+    ],
+    "context": "host"
+   },
+   "6": {
+    "ref": "zlib/1.2.11",
+    "options": "shared=False",
+    "package_id": "3fb49604f9c2f729b85ba3115852006824e72cab",
+    "prev": "0",
+    "context": "host"
+   },
+   "7": {
+    "ref": "xtensor/0.24.0",
+    "options": "openmp=False\ntbb=False\nxsimd=True\nxsimd:xtl_complex=False",
+    "package_id": "5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9",
+    "prev": "0",
+    "requires": [
+     "8",
+     "9",
+     "10"
+    ],
+    "context": "host"
+   },
+   "8": {
+    "ref": "xtl/0.7.4",
+    "options": "",
+    "package_id": "5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9",
+    "prev": "0",
+    "context": "host"
+   },
+   "9": {
+    "ref": "nlohmann_json/3.10.5",
+    "options": "",
+    "package_id": "5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9",
+    "prev": "0",
+    "context": "host"
+   },
+   "10": {
+    "ref": "xsimd/8.0.3",
+    "options": "xtl_complex=False",
+    "package_id": "5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9",
+    "prev": "0",
+    "context": "host"
+   }
+  },
+  "revisions_enabled": false
+ },
+ "version": "0.4",
+ "profile_host": "[settings]\narch=x86_64\narch_build=x86_64\nbuild_type=Release\ncompiler=Visual Studio\ncompiler.runtime=MD\ncompiler.toolset=v142\ncompiler.version=16\nos=Windows\nos_build=Windows\n[options]\n[build_requires]\n[env]\n"
+}

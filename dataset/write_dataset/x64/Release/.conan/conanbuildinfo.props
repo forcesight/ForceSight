@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Label="Conan-RootDirs">
+    <Conan-h5pp-Root>$(USERPROFILE)\.conan\data\h5pp\1.9.0\_\_\package\5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9</Conan-h5pp-Root>
+    <Conan-xtensor-Root>$(USERPROFILE)\.conan\data\xtensor\0.24.0\_\_\package\5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9</Conan-xtensor-Root>
+    <Conan-eigen-Root>$(USERPROFILE)\.conan\data\eigen\3.3.9\_\_\package\5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9</Conan-eigen-Root>
+    <Conan-spdlog-Root>$(USERPROFILE)\.conan\data\spdlog\1.8.5\_\_\package\5f068d3b65ebc5bb906d7ad2d998a4a2f8ad5db4</Conan-spdlog-Root>
+    <Conan-hdf5-Root>$(USERPROFILE)\.conan\data\hdf5\1.12.0\_\_\package\28891ed0065342f11bc16b246461e0f70d52d55a</Conan-hdf5-Root>
+    <Conan-xtl-Root>$(USERPROFILE)\.conan\data\xtl\0.7.4\_\_\package\5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9</Conan-xtl-Root>
+    <Conan-nlohmann_json-Root>$(USERPROFILE)\.conan\data\nlohmann_json\3.10.5\_\_\package\5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9</Conan-nlohmann_json-Root>
+    <Conan-xsimd-Root>$(USERPROFILE)\.conan\data\xsimd\8.0.3\_\_\package\5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9</Conan-xsimd-Root>
+    <Conan-fmt-Root>$(USERPROFILE)\.conan\data\fmt\7.1.3\_\_\package\2be90237c5e294c2f30bf6b043d047624b893db3</Conan-fmt-Root>
+    <Conan-zlib-Root>$(USERPROFILE)\.conan\data\zlib\1.2.11\_\_\package\3fb49604f9c2f729b85ba3115852006824e72cab</Conan-zlib-Root>
+  </PropertyGroup>
+  <PropertyGroup Label="ConanVariables">
+    <ConanPackageName></ConanPackageName>
+    <ConanPackageVersion></ConanPackageVersion>
+    <ConanCompilerFlags>/permissive-</ConanCompilerFlags>
+    <ConanLinkerFlags></ConanLinkerFlags>
+    <ConanPreprocessorDefinitions>SPDLOG_FMT_EXTERNAL;SPDLOG_COMPILED_LIB;XTENSOR_USE_XSIMD;NOMINMAX;</ConanPreprocessorDefinitions>
+    <ConanIncludeDirectories>$(USERPROFILE)\.conan\data\h5pp\1.9.0\_\_\package\5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9\include;$(USERPROFILE)\.conan\data\xtensor\0.24.0\_\_\package\5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9\include;$(USERPROFILE)\.conan\data\eigen\3.3.9\_\_\package\5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9\include\eigen3;$(USERPROFILE)\.conan\data\spdlog\1.8.5\_\_\package\5f068d3b65ebc5bb906d7ad2d998a4a2f8ad5db4\include;$(USERPROFILE)\.conan\data\hdf5\1.12.0\_\_\package\28891ed0065342f11bc16b246461e0f70d52d55a\include;$(USERPROFILE)\.conan\data\hdf5\1.12.0\_\_\package\28891ed0065342f11bc16b246461e0f70d52d55a\include\hdf5;$(USERPROFILE)\.conan\data\xtl\0.7.4\_\_\package\5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9\include;$(USERPROFILE)\.conan\data\nlohmann_json\3.10.5\_\_\package\5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9\include;$(USERPROFILE)\.conan\data\xsimd\8.0.3\_\_\package\5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9\include;$(USERPROFILE)\.conan\data\fmt\7.1.3\_\_\package\2be90237c5e294c2f30bf6b043d047624b893db3\include;$(USERPROFILE)\.conan\data\zlib\1.2.11\_\_\package\3fb49604f9c2f729b85ba3115852006824e72cab\include;</ConanIncludeDirectories>
+    <ConanResourceDirectories></ConanResourceDirectories>
+    <ConanLibraryDirectories>$(USERPROFILE)\.conan\data\xtensor\0.24.0\_\_\package\5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9\lib;$(USERPROFILE)\.conan\data\spdlog\1.8.5\_\_\package\5f068d3b65ebc5bb906d7ad2d998a4a2f8ad5db4\lib;$(USERPROFILE)\.conan\data\hdf5\1.12.0\_\_\package\28891ed0065342f11bc16b246461e0f70d52d55a\lib;$(USERPROFILE)\.conan\data\xtl\0.7.4\_\_\package\5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9\lib;$(USERPROFILE)\.conan\data\xsimd\8.0.3\_\_\package\5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9\lib;$(USERPROFILE)\.conan\data\fmt\7.1.3\_\_\package\2be90237c5e294c2f30bf6b043d047624b893db3\lib;$(USERPROFILE)\.conan\data\zlib\1.2.11\_\_\package\3fb49604f9c2f729b85ba3115852006824e72cab\lib;</ConanLibraryDirectories>
+    <ConanBinaryDirectories></ConanBinaryDirectories>
+    <ConanLibraries>spdlog.lib;libhdf5_hl_cpp.lib;libhdf5_cpp.lib;libhdf5_hl.lib;libhdf5.lib;fmt.lib;zlib.lib;</ConanLibraries>
+    <ConanSystemDeps></ConanSystemDeps>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LocalDebuggerEnvironment>PATH=%PATH%;</LocalDebuggerEnvironment>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(ConanIncludeDirectories)%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>$(ConanPreprocessorDefinitions)%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions>$(ConanCompilerFlags) %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>$(ConanLibraryDirectories)%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>$(ConanLibraries)%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>$(ConanSystemDeps)%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalOptions>$(ConanLinkerFlags) %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+    <Midl>
+      <AdditionalIncludeDirectories>$(ConanIncludeDirectories)%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </Midl>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>$(ConanIncludeDirectories)%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>$(ConanPreprocessorDefinitions)%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions>$(ConanCompilerFlags) %(AdditionalOptions)</AdditionalOptions>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup />
+</Project>
