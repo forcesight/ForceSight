@@ -1,6 +1,8 @@
-### Hi there 👋
+### ForceSight: Non-Contact Force Sensing with Laser Speckle Imaging
 
 <!--
+Dataset (building) https://www.kaggle.com/datasets/forcesightresearch/dataset
+
 **forcesight/ForceSight** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
 Here are some ideas to get you started:
