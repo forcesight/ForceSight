@@ -63,7 +63,7 @@ def find_angle(flow):
 
     return angle
 
-def button(flow, angle):
+def button_detection(flow, angle):
 
     scalar = int(1)
     flow_sparse_roi = scalar * flow[:, :, :]
@@ -148,7 +148,7 @@ def main():
         flow_sparse = integration[::int(nr/no_row_grids),::int(nc/no_col_grids),:]
 
         angle = find_angle(flow_sparse)
-        button_status = button(flow_sparse, angle)
+        button_status = button_detection(flow_sparse, angle)
         
         op_fl = draw_flow(img,flow_sparse,yy,xx)
 
