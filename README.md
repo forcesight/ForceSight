@@ -1,5 +1,13 @@
 ### ForceSight: Non-Contact Force Sensing with Laser Speckle Imaging
 
+Siyou Pei, Pradyumna Chari, Xue Wang, Xiaoying Yang, Achuta Kadambi, Yang Zhang 
+
+The 35th Annual ACM Symposium on User Interface Software and Technology, UIST ’22
+
+We will update the readme document to explain the repo structure and dataset configuration.
+
+Datasets of videos and laser speckle velocity field will be uploaded on kaggle platform. Stay tuned.
+
 <!--
 Dataset (building) https://www.kaggle.com/datasets/forcesightresearch/dataset
 
